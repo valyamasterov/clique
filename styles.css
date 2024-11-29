@@ -9,7 +9,7 @@ body {
 }
 
 body a {
-    color: orangered;
+    color: rgba(47, 28, 47, 0.941);
     text-decoration: none;
 }
 
@@ -26,10 +26,10 @@ body a {
     display: flex;
     justify-content: space-between;
     margin-bottom: 64px;
-    color: orangered;
+    color: rgba(47, 28, 47, 0.941);
     margin-bottom: 64px;
     padding-bottom: 12px;
-    border-bottom: 1px solid orangered;
+    border-bottom: 1px solid rgba(47, 28, 47, 0.941);
     column-gap: 16px;
     row-gap: 8px;
 }
@@ -47,9 +47,9 @@ body a {
     display: flex;
     justify-content: space-between;
     margin-top: 30vh;
-    color: orangered;
+    color: rgba(47, 28, 47, 0.941);
     padding-top: 12px;
-    border-top: 1px solid orangered;
+    border-top: 1px solid rgba(47, 28, 47, 0.941);
     column-gap: 16px;
     row-gap: 8px;
 }
@@ -86,7 +86,7 @@ body a {
 
 .TagElement {
     padding: 6px 12px;
-    background-color: orangered;
+    background-color: rgba(47, 28, 47, 0.941);
     color: white;
     border-radius: 24px;
     margin: 12px 12px 0px 0px;
