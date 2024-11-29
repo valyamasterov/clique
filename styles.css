@@ -1,0 +1,131 @@
+body {
+    padding: 3%;
+    margin: 0 auto;
+    max-width: 1480px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+body a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.ProjectRow div:nth-child(1) a {
+    transition: font-size 0.3s ease;
+}
+
+.ProjectRow div:nth-child(1) a:hover {
+    font-size: 26px;
+}
+
+#ContactContainer {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    color: orangered;
+    margin-bottom: 64px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid orangered;
+    column-gap: 16px;
+    row-gap: 8px;
+}
+
+#ContactContainer a{
+    transition: color 1s ease;
+}
+
+#ContactContainer a:hover{
+    color: black;
+}
+
+#FooterContainer {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30vh;
+    color: orangered;
+    padding-top: 12px;
+    border-top: 1px solid orangered;
+    column-gap: 16px;
+    row-gap: 8px;
+}
+
+.ProjectRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.ProjectRow div {
+    width: 30%;
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.ProjectRow div:nth-child(2) {
+    width: 65%;
+    font-size: 18px;
+    height: 100%;
+    min-height: 80px;
+    transition: scale 0.3s ease;
+}
+
+.ProjectRow div:nth-child(2):hover {
+    scale: 1.01;
+}
+
+.ProjectRow div:nth-child(2) a:hover{
+    text-decoration: underline;
+}
+
+.TagElement {
+    padding: 6px 12px;
+    background-color: orangered;
+    color: white;
+    border-radius: 24px;
+    margin: 12px 12px 0px 0px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.TagElement {
+    cursor: default;
+    transition: background-color 1s ease;
+}
+
+.TagElement:hover {
+    background-color: black;
+
+}
+
+@media only screen and (max-width: 960px) {
+    .ProjectRow div {
+        min-width: 100%;
+        font-size: 28px;
+    }
+    .ProjectRow div:nth-child(2) {
+        min-width: 100%;
+        font-size: 18px;
+    }
+    #ContactContainer {
+        font-size: 18px;
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    #ContactContainer span {
+        width: 100%;
+    }
+
+    .TagElement {
+        font-size: 12px;
+    }
+
+  }
+
